@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Function Penjumlahan</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="header">
+     		<div class="header-logo"><a href="index.html" style="text-decoration:none"><font color="white">Function Penjumlahan</a></font></div>
+      <style type="text/css">
+        a{text-decoration: none;}
+        li a{color:#fff;}
+      </style>
+    </div>
+    <div class="main">
+      <div class="judul">
+        <h4>Destio Wahyu | A11.2021.13568</h4>
+      </div>
+
+    <h4 align="center">Silahkan Masukkan Angka Untuk Dijumlahkan dibawah</h4>
+
+
+    <label>Angka 1</label>
+    <input id="angka1" type="text" placeholder="Masukkan Angka disini">
+
+    <label>Angka 2</label>
+    <input id="angka2" type="text" placeholder="Masukkan Angka disini">
+
+    <button onclick="penjumlahan()">Jumlahkan</button>
+ <br><br><br>
+    
+    <h2> Hasilnya : </h2>
+	<p id="hasil"></p>
+
+
+</div>
+<script type="text/javascript">
+function penjumlahan()
+{
+	var x = document.getElementById('angka1').value;
+	var y = document.getElementById('angka2').value;
+	var hasil = parseInt (x)+parseInt (y);
+	document.getElementById('hasil').innerHTML = hasil;
+}
+</script>
+
+
+</html>

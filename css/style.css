@@ -1,0 +1,234 @@
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Avenir Next";
+      }
+
+        li {
+          list-style: none;
+        }
+
+        .header {
+          background-color: #2f5167;
+          color: #fff;
+          height: 90px;
+        }
+
+        .header-logo {
+          float: left;
+          font-size: 40px;
+          padding: 25px 40px;
+          font-family: "Bebas Neue";
+        }
+
+        .header-logo :hover{
+          color: #297c84;
+
+          
+        }
+
+        .header-list{
+          text-decoration: none;
+        }
+
+        .header-list li {
+          list-style: none;
+          text-decoration: none;
+          font-family: "arial narrow";
+          float: left;
+          padding: 35px 20px;
+          font-size: 20px;
+        }
+
+        .header-list li a:hover{
+          border-bottom: 3px solid #dee7ec;
+        }
+
+        .main {
+          padding: 0px 150px;
+          font-family: "arial";
+        }
+
+
+        .judul h4 {
+          font-size: 20px;
+          border-bottom: 3px solid #dee7ec;
+          padding-bottom:15px;
+          margin-bottom:10px;
+        }
+
+
+        .contents {
+          height: 800px;
+          margin-top: 20px;
+        }
+
+        .table {
+          margin-top: 20px;
+          margin-bottom: 50px;
+        }
+
+        .contents-item {
+          padding-bottom: 70px
+        }
+
+        .instagram-atas a:hover {
+          color: #95cacf;
+          border-bottom: 3px solid #dee7ec;
+        }
+
+        .footer {
+          margin-top: 100px;
+          background-color: #2f5167;
+          color: #fff;
+          height: 80px;
+          padding: 40px;
+        }
+
+        .footer-logo {
+          float: left;
+          font-size: 32px;
+          padding: 25px 0px;
+          font-family: "Bebas Neue"
+        }
+
+        .instagram {
+          float: right;
+          font-family: "arial"
+        }
+
+      * {
+        box-sizing: border-box;
+      }
+      form {
+        padding: 1em;
+        background: -webkit-linear-gradient(bottom, #33b3c7, #e7e7e7);
+        border: 1px solid #c1c1c1;
+        margin-top: 2rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+        border-radius: 10px;
+      }
+      form input {
+        margin-bottom: 1rem;
+        background: #fff;
+        border: 1px solid #9c9c9c;
+      }
+      form button {
+        background: lightgrey;
+        padding: 0.7em;
+        border: 0;
+      }
+      form button:hover {
+        background: #13c0dc;
+        color: white;
+      }
+      form span a{
+        background: lightblue;
+        padding: 0.7em;
+        border: 0;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+      }
+      form span a:hover {
+        background: blue;
+        color: white;
+      }
+      label {
+        text-align: right;
+        display: block;
+        padding: 0.5em 1.5em 0.5em 0;
+      }
+      input {
+        border-radius: 20px;
+        width: 100%;
+        padding: 0.7em;
+        margin-bottom: 0.5rem;
+      }
+      input:focus {
+        outline: 3px solid #13c0dc;
+      }
+      select {
+        width: 100%;
+        padding: 0.7em;
+        margin-bottom: 0.5rem;
+        border-radius: 20px;
+      }
+      select:focus {
+        outline: 3px solid #4aa2c2;
+      }
+      @media (min-width: 400px) {
+        form {
+          overflow: hidden;
+        }
+      label {
+        float: left;
+        width: 200px;
+      }
+      input {
+        float: left;
+        width: calc(100% - 200px);
+      }
+      select {
+        float: left;
+        width: calc(100% - 200px);
+      }
+      button {
+        float: right;
+        width: 90px;
+        border-radius: 20px;
+        height: 40px;
+      }
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 6px solid #f2f5f7;
+}
+
+.table1 tr th{
+    background: #2fb0bd;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: #d1d1d1;
+}
+
+.instagram a:hover {
+  color: #95cacf;
+  background-color: #1eadbc;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 170px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  padding: 25px 0px;
+  font-family: "Bebas Neue"
+}
+
+.instagram {
+  float: right;
+  font-family: "arial"
+}
+
+}
